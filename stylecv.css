@@ -1,26 +1,72 @@
 *{
     font-family:"Futura", monospace;
     font-size: large;
-    font-style: normal;
+    font-style:normal;
+    font-weight:100;
     letter-spacing: 3pt;
     line-height: 30pt;
     color: snow;
 }
 
-.body{
-    background-color: slategrey;
+body{
+    background: linear-gradient( slategrey, DarkGray);
     padding: 5px;
 }
 
 .page-header{
-    background-color: snow;
+    background: linear-gradient(to right, snow, DarkGray, slategrey);
     color: slategrey;
     padding: 20pt;
     font-size: xx-large;
+    font-weight: bold;
     margin: 10pt;
     margin-bottom: 30pt;
-    border-radius: 10pt 10pt 10pt 0pt;
+    border: solid 5px;
+    border-radius: 10px 10px 0px 10px;
+    border-color:thistle;
 }
-.liste{
+
+.intro a, .cvpapier a, .contact a{
+    text-decoration: none;
+}
+
+.intro a:hover, .cvpapier a:hover, .contact a:hover{
+    color: darkgray;
+}
+
+.liste {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.liste a{
     line-height: 40pt;
+    text-decoration: none;
+    
+}
+.competence a:hover{
+    background-color:deepskyblue;
+    width: fit-content;
+    border: solid 1px slategrey;
+    border-radius: 3px;
+}
+.experience a:hover{
+    background-color:rgb(243, 228, 95);
+    width: fit-content;
+    border: solid 1px slategrey;
+    border-radius: 3px;
+}
+
+.formation a:hover{
+    background-color: rgb(93, 190, 93);
+    width: fit-content;
+    border: solid 1px slategrey;
+    border-radius: 3px;
+}
+
+.activites a:hover{
+    background-color:rgb(124, 172, 245);
+    width: fit-content;
+    border: solid 1px slategrey;
+    border-radius: 3px;
 }
